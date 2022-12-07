@@ -1,0 +1,330 @@
+.skills_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.skills_container_header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+}
+
+.students {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #616161;
+}
+
+.skills_box {
+    width: 280px;
+    height: 120px;
+
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.skill_box_text {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.skills_actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.skills_pricing {
+    width: 100%;
+    margin-top: 100px;
+    background: #0F0F0F;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_pricing img {
+    width: 30%;
+}
+
+.skill_pricing_box {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill_pricing_box_ {
+    width: 60%;
+}
+
+.pricing {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px;
+    color: #C2C2C2;
+}
+
+.details {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 40px 0px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.setup {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 54px;
+    color: #C2C2C2;
+}
+
+.skill_weekends {
+    width: 100%;
+    height: 317px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 238, 225, 0.8)
+}
+
+.skill_weekends_box {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills_week {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    width: 70%;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #616161;
+}
+
+.skills_box__ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    .skills_container_header {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .students {
+        font-size: 12px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+
+    .skills_container {
+        margin-top: 70px;
+    }
+
+    .skills_actions {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    .skills_box {
+        width: 40%;
+        padding: 10px;
+        height: 160px;
+        margin-bottom: 50px;
+    }
+
+    .skill_box_text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .skill_pricing_box {
+        width: 100%;
+        order: 2 !important;
+    }
+
+    .skills_pricing img {
+        order: 1 !important;
+        width: 100%;
+    }
+
+    .skills_pricing {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .skill_pricing_box_ {
+        width: 90%;
+        text-align: center;
+        padding: 50px 10px;
+    }
+
+    .we_make {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 30px;
+        color: #F77D27;
+    }
+
+    .details {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+    .skills_week {
+        width: 100%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .burst_mobile {
+        position: absolute;
+        right: 0px;
+        padding: 30px;
+        margin-top: -150px;
+    }
+
+    .skill_weekends {
+        height: 389px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .skills_container_header {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .students {
+        font-size: 12px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+
+    .skills_container {
+        margin-top: 70px;
+    }
+
+    .skills_actions {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    .skills_box {
+        width: 40%;
+        padding: 10px;
+        height: 160px;
+        margin-bottom: 50px;
+    }
+
+    .skill_box_text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .skill_pricing_box {
+        width: 100%;
+        order: 2 !important;
+    }
+
+    .skills_pricing img {
+        order: 1 !important;
+        width: 100%;
+    }
+
+    .skills_pricing {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .skill_pricing_box_ {
+        width: 90%;
+        text-align: center;
+        padding: 50px 10px;
+    }
+
+    .we_make {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 30px;
+        color: #F77D27;
+    }
+
+    .details {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+    .skills_week {
+        width: 100%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .burst_mobile {
+        position: absolute;
+        right: 0px;
+        padding: 30px;
+        margin-top: -150px;
+    }
+
+    .skill_weekends {
+        height: 389px;
+    }
+
+}

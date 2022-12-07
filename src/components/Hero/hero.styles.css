@@ -1,0 +1,339 @@
+.hero_container {
+    /* overflow-x: hidden;
+    width: 100%; */
+}
+
+.hero_container_box {
+    position: absolute;
+    width: 135%;
+    z-index: -10;
+    height: 1701.02px;
+    left: -309px;
+    top: -858.24px;
+    background: rgba(247, 125, 39, 0.11);
+    border-radius: 176px;
+    transform: rotate(-25.58deg);
+}
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header_container {
+    padding: 40px 80px;
+}
+
+.hero_container .header_box .header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header_menu_box {
+    width: 658.34px;
+    height: 499.1px;
+    /* left: 727px; */
+    top: -356.48px;
+    right: -30px;
+    position: absolute;
+    background: rgba(245, 126, 39, 0.3);
+    border-radius: 150px;
+    transform: rotate(-15.98deg);
+}
+
+.header_box .btn {
+    margin: 10px 80px;
+    z-index: 10;
+}
+
+.header_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #616161;
+    transition: ease 400ms all;
+}
+
+.header_hero_container {
+    padding: 60px 80px;
+}
+
+.header_hero_container .header_hero_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    color: #333333;
+}
+
+.header_hero_container .header_hero_text_2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #333333;
+    padding-top: 20px;
+}
+
+.get_started_header {
+    margin-top: 70px;
+    z-index: 10000000;
+}
+
+.customize {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 70px;
+    color: #616161;
+}
+
+.box_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box_actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.box_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #616161;
+
+}
+
+
+/* 
+EXPECT STYLING
+*/
+
+.expect_sections {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.expect_sections_header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+    padding-top: 60px;
+
+}
+
+.expect_sections_box {
+    display: flex;
+    width: 42%;
+    margin-bottom: 100px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.expect_sections_box .expect_sections_box_text {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+}
+
+
+
+.expect_sections_ {
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.expect_sections_box_text_2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #616161;
+
+}
+
+.section_class_btn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero_container_box {
+        display: none;
+    }
+
+    .header_menu_box {
+        display: none;
+    }
+
+    .mobile_view {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .header_hero_container {
+        padding: 50px 20px;
+    }
+
+    .header_hero_container .header_hero_text {
+        font-size: 45px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        color: #333333;
+    }
+
+    .header_hero_container .header_hero_text_2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .customize {
+        margin-top: 30px;
+    }
+
+    .box_actions {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .expect_sections_header {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        width: 70%;
+    }
+
+    .expect_sections_ {
+        flex-wrap: wrap;
+    }
+
+    .expect_sections_box {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .expect_sections_box .expect_sections_box_text {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+
+    .expect_sections_box img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .box__1_ {
+        height: 40px;
+        width: 168px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .hero_container_box {
+        display: none;
+    }
+
+    .header_menu_box {
+        right: unset;
+        top: -400px;
+    }
+
+    .expect_sections_ {
+        width: 90%;
+    }
+
+    .expect_sections_box {
+        display: flex;
+        flex-direction: column;
+        /* width: 42%; */
+        align-items: center;
+        align-items: center;
+        justify-content: 100px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .expect_sections_box_text_2 {
+        width: 80%;
+    }
+
+    .expect_sections_box_cont {
+        /* width: 30%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.header_fex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -70px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header_container {
+        padding: 40px;
+    }
+
+    .header_box .btn {
+        margin: 0px 40px;
+    }
+
+    .header_hero_container {
+        padding: 60px 20px;
+    }
+
+    .user_image {
+        display: none;
+    }
+
+    .get_started_header {
+        margin-top: 120px;
+    }
+}
